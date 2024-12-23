@@ -45,9 +45,6 @@ h2 {
 
 .countdown div::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 50px;
   font-size: 12px;
   text-transform: capitalize;
   color: coral;
@@ -55,16 +52,28 @@ h2 {
 
 #day::before {
   content: "days ";
+  position: absolute;
+  bottom: 0;
+  left: 80px;
 }
 
 #hour::before {
   content: "hour";
+  position: absolute;
+  bottom: 0;
+  left: 50px;
 }
 
 #minute::before {
   content: "minute";
+  position: absolute;
+  bottom: 0;
+  left: 50px;
 }
 
 #second::before {
   content: "second";
+  position: absolute;
+  bottom: 0;
+  left: 50px;
 }
